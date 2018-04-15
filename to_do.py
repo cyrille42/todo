@@ -176,10 +176,8 @@ class ToDo():
 		self.end_date = new_end_date
 
 	def add_hours_to_end_date(self, hours):
-		print("foo")
 		if self.end_date is not None:
 			self.end_date = self.end_date + hours
-			print(self.end_date)
 
 
 def create_choice_list(bdd):
